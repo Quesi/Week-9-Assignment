@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Message Board</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Message Board</h1>
+			</header>
+
+			<div id="main">
+
+        <form method="post" enctype="multipart/form-data" action="/upload">
+          <p> Load image:<input type="file" name="photos"></p>
+          <input type="submit" value="Submit">
+        </form>
+
+
+				{{{body}}}
+        
+			</div>
+		</div>
+	</body>
+</html>
